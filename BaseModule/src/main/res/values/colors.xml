@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_200">#0D4D3A</color>
+    <color name="green_100">#106048</color>
+    <color name="green_50">#9FBFB6</color>
+    <color name="green_25">#E7EFED</color>
+    <color name="green_dark_mode">#158362</color>
+
+    <color name="red_200">#CC3E3E</color>
+    <color name="red_100">#FF4D4E</color>
+    <color name="red_50">#FFB8B8</color>
+    <color name="red_25">#FFEDED</color>
+
+    <color name="yellow_200">#F3BC4E</color>
+    <color name="yellow_100">#FFD233</color>
+    <color name="yellow_50">#FAE4B8</color>
+    <color name="yellow_25">#FEF8ED</color>
+
+    <color name="warm_green_100">#D9DAD2</color>
+
+    <color name="dark_1000">#111111</color>
+    <color name="dark_800">#414141</color>
+    <color name="dark_600">#707070</color>
+    <color name="gray_400">#A0A0A0</color>
+    <color name="gray_200">#CFCFCF</color>
+    <color name="gray_100">#E7E7E7</color>
+    <color name="gray_50">#F5F6F5</color>
+    <color name="gray_25">#F7F8F8</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="black">#151617</color>
+    <color name="dark_mode_100">#1E2021</color>
+    <color name="dark_mode_50">#2D2D2D</color>
+    <color name="dark_mode_25">#5E5E5E</color>
+    <color name="day_night_green">@color/green_100</color>
+</resources>
