@@ -1,12 +1,10 @@
-package com.example.drdbasemodule.pagination
+package com.example.basemodule.basemodule.pagination
 
-import android.util.Log
 import androidx.paging.PagingSource
 
-/**
- * Created by Shaza Hassan on 3/29/21
- */
-abstract class BaseDataSource<Key:Any,Data:Any> : PagingSource<Key, Data>(),DataSourceFunctions<Key,Data>{
+
+abstract class BaseDataSource<Key:Any,Data:Any> : PagingSource<Key, Data>(),
+    DataSourceFunctions<Key, Data> {
 
     abstract suspend fun requestData(currentPage: Key): Any
 

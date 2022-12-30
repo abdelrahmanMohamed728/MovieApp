@@ -1,12 +1,8 @@
-package com.example.drdbasemodule.pagination
+package com.example.basemodule.basemodule.pagination
 
-/**
- * Created by Shaza Hassan on 3/30/21
- */
 interface DataSourceFunctions<Key:Any,Data:Any> {
 
     abstract var currentPage:Key
-    abstract var pageLength:Key
 
     abstract fun getNextPage(currentPage: Key, lastPage: Key): Key?
 

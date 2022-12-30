@@ -1,8 +1,5 @@
-package com.example.drdbasemodule.model
+package com.example.basemodule.basemodule.model
 
-/**
- * Created by Shaza Hassan on 27/Jun/2022.
- */
 interface MapperToDomain<Entity: BaseModel,DomainModel : DTOModel> {
     @Throws(Exception::class)
     fun fromModelToDomain(model : Entity) :  DomainModel

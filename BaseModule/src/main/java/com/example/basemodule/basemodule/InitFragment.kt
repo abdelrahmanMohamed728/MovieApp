@@ -1,4 +1,4 @@
-package com.example.drdbasemodule
+package com.example.basemodule.basemodule
 
 import com.example.drdbasemodule.model.Action
 

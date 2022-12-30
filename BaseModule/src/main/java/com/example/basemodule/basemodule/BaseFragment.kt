@@ -1,4 +1,4 @@
-package com.example.drdbasemodule
+package com.example.basemodule.basemodule
 
 import android.app.Activity
 import android.app.Dialog

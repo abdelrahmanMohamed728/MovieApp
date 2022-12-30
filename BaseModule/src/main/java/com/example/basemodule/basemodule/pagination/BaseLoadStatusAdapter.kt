@@ -1,4 +1,4 @@
-package com.example.drdbasemodule.pagination
+package com.example.basemodule.basemodule.pagination
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,14 +7,11 @@ import androidx.paging.LoadState
 import androidx.paging.LoadStateAdapter
 import androidx.recyclerview.widget.RecyclerView
 
-/**
- * Created by Shaza Hassan on 3/28/21
- */
 
 /**
  * VH -> View holder
  */
-abstract class BaseLoadStatusAdapter<VH:BaseLoadStatusAdapter.BaseLoadStateViewHolder>:LoadStateAdapter<VH>()  {
+abstract class BaseLoadStatusAdapter<VH: BaseLoadStatusAdapter.BaseLoadStateViewHolder>:LoadStateAdapter<VH>()  {
 
     /**
      * you will return the layout of the item for the footer or header for the recycler

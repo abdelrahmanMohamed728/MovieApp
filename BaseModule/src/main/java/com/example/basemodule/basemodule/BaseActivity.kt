@@ -1,4 +1,4 @@
-package com.example.drdbasemodule
+package com.example.basemodule.basemodule
 
 import android.os.Bundle
 import android.view.View

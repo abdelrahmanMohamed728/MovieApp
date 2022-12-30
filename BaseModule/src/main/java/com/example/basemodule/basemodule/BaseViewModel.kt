@@ -1,14 +1,10 @@
-package com.example.drdbasemodule
+package com.example.basemodule.basemodule
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.viewModelScope
+import com.example.basemodule.basemodule.BaseFragment
 import com.example.drdbasemodule.model.Action
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.catch
-import kotlinx.coroutines.flow.onStart
-import kotlinx.coroutines.launch
 
 open class BaseViewModel(application: Application) : AndroidViewModel(application) {
 

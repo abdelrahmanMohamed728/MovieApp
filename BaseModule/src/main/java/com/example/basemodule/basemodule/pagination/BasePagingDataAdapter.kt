@@ -1,4 +1,4 @@
-package com.example.drdbasemodule.pagination
+package com.example.basemodule.basemodule.pagination
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,9 +7,6 @@ import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 
-/**
- * Created by shaza on 3/28/21
- */
 
 /**
  * M -> Class of model

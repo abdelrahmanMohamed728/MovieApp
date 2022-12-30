@@ -1,8 +1,6 @@
-package com.example.drdbasemodule.model
+package com.example.basemodule.basemodule.model
 
-/**
- * Created by Shaza Hassan on 26/Jun/2022.
- */
+
 class BaseError(
     val message: String
 )

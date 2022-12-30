@@ -1,14 +1,12 @@
-package com.example.drdbasemodule.pagination
+package com.example.basemodule.basemodule.pagination
 
 import androidx.paging.rxjava2.RxPagingSource
 import io.reactivex.Single
 import io.reactivex.schedulers.Schedulers
 
 
-/**
- * Created by Shaza Hassan on 3/30/21
- */
-abstract class BaseDataSourceRx<Key:Any,Data:Any> : RxPagingSource<Key, Data>(),DataSourceFunctions<Key,Data>{
+abstract class BaseDataSourceRx<Key:Any,Data:Any> : RxPagingSource<Key, Data>(),
+    DataSourceFunctions<Key, Data> {
 
     abstract fun requestData(currentPage: Key): Single<Any>
     abstract fun parseData(response: Any): List<Data>
