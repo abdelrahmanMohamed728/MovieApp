@@ -48,7 +48,7 @@ interface BaseApiRepo : BaseReposing {
     }
 
     companion object{
-        const val API_KEY = "e9fbc87a2d7ee2a8fe830d100ec07bb0"
+        const val API_KEY = "64e7ffc2ad28cab83c1d9d0150eb87b4"
     }
 
 }

@@ -4,8 +4,9 @@ import com.example.movieapp.shared.model.Movie
 import com.example.movieapp.shared.api.BaseApiRepo
 import com.example.movieapp.shared.api.BaseRetrofitClient
 import kotlinx.coroutines.flow.Flow
+import javax.inject.Inject
 
-class MovieListRepo(override var apiClient: BaseRetrofitClient) : MovieListReposing, BaseApiRepo {
+class MovieListRepo @Inject constructor(override var apiClient: BaseRetrofitClient) : MovieListReposing, BaseApiRepo {
     override suspend fun getTopRatedMovies(pageNumber: Int): Flow<List<Movie>> {
         return handleResponse(
             {

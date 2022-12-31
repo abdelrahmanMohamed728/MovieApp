@@ -9,6 +9,7 @@ import kotlinx.coroutines.flow.collectLatest
 
 class MoviesListDataSource(
     override var currentPage: Int,
+    override var pageLength: Int,
     private val repo: MovieListReposing,
     private val type: MoviesListType
 ) : BaseDataSource<Int, Movie>() {
@@ -29,7 +30,7 @@ class MoviesListDataSource(
     }
 
     override fun getPrevPage(currentPage: Int): Int? {
-        return if (currentPage == 0){
+        return if (currentPage == 1){
             null
         }else{
             currentPage - 1

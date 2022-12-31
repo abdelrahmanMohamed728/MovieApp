@@ -8,13 +8,13 @@ import retrofit2.http.Query
 interface WebService {
 
     @GET("movie/top_rated")
-    fun getTopRatedMovies(
+    suspend fun getTopRatedMovies(
         @Query("api_key") apiKey: String,
         @Query("page") page: Int
     ): Response<MoviesListResponse>
 
     @GET("movie/popular")
-    fun getMostPopularMovies(
+    suspend fun getMostPopularMovies(
         @Query("api_key") apiKey: String,
         @Query("page") page: Int
     ): Response<MoviesListResponse>
