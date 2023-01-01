@@ -1,7 +1,10 @@
 package com.example.movieapp.shared.model
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
 
+@Parcelize
 class Movie(
     @SerializedName("poster_path")
     val imagePath: String?,
@@ -12,4 +15,4 @@ class Movie(
     val userRating: Double,
     @SerializedName("original_title")
     val title: String?
-)
+): Parcelable

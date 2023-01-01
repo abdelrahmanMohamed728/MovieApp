@@ -8,8 +8,11 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.basemodule.basemodule.BaseFragment
 import com.example.movieapp.R
+import com.example.movieapp.moviedetails.MovieDetailsFragment
 import com.example.movieapp.movieslist.view.adapter.MoviesListAdapter
+import com.example.movieapp.movieslist.view.adapter.OnMovieClicked
 import com.example.movieapp.movieslist.viewmodel.MoviesListViewModel
+import com.example.movieapp.shared.model.Movie
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_movies_list.*
 import kotlinx.coroutines.launch
@@ -32,10 +35,15 @@ class MoviesListFragment : BaseFragment<MoviesListViewModel>() {
         viewModel.getMovies()
     }
 
-    private fun initMoviesRecycler(){
-        val layoutManager = GridLayoutManager(requireContext(), 2, GridLayoutManager.VERTICAL, false)
+    private fun initMoviesRecycler() {
+        val layoutManager =
+            GridLayoutManager(requireContext(), 2, GridLayoutManager.VERTICAL, false)
         movies_recycler.layoutManager = layoutManager
-        moviesListAdapter = MoviesListAdapter()
+        moviesListAdapter = MoviesListAdapter(object : OnMovieClicked {
+            override fun onMovieClicked(movie: Movie) {
+                addFragment(MovieDetailsFragment.createInstance(movie))
+            }
+        })
         movies_recycler.adapter = moviesListAdapter
     }
 

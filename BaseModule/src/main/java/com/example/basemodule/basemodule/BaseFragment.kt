@@ -12,6 +12,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.example.basemodule.R
 import com.example.drdbasemodule.loading.LoadingUtil
 import com.example.drdbasemodule.model.Action
 import com.google.android.material.snackbar.Snackbar
@@ -127,6 +128,31 @@ open class BaseFragment<T : BaseViewModel> : Fragment(), InitFragment {
 
         viewModel.hideShimmerLiveData.observe(viewLifecycleOwner){
             hideShimmerEffect(it)
+        }
+    }
+
+    fun addFragment(fragment: Fragment, addToBackStack: Boolean = true) {
+        hideKeyboardFrom(requireContext(),requireView())
+        if (addToBackStack) {
+            val backStateName: String = fragment::javaClass.toString()
+            activity?.supportFragmentManager?.beginTransaction()
+                ?.setCustomAnimations(
+                    R.anim.enter_from_left,
+                    R.anim.exit_to_right,
+                    R.anim.enter_from_right,
+                    R.anim.exit_to_left
+                )
+                ?.add(getContainer(), fragment, tag)?.addToBackStack(backStateName)?.commit()
+
+        } else {
+            activity?.supportFragmentManager?.beginTransaction()
+                ?.setCustomAnimations(
+                    R.anim.enter_from_left,
+                    R.anim.exit_to_right,
+                    R.anim.enter_from_right,
+                    R.anim.exit_to_left
+                )
+                ?.add(getContainer(), fragment, tag)?.commit()
         }
     }
 

@@ -8,7 +8,7 @@ import com.example.movieapp.R
 import com.example.movieapp.shared.model.Movie
 import kotlinx.android.synthetic.main.movie_list_item.view.*
 
-class MoviesListAdapter :
+class MoviesListAdapter(val onMovieClicked: OnMovieClicked) :
     BasePagingDataAdapter<Movie, MoviesListAdapter.ViewHolder>(Comp) {
 
     override fun getItemLayout(viewType: Int): Int {
@@ -19,10 +19,10 @@ class MoviesListAdapter :
         view: View,
         viewType: Int
     ): MoviesListAdapter.ViewHolder {
-        return MoviesListAdapter.ViewHolder(view)
+        return MoviesListAdapter.ViewHolder(view,onMovieClicked)
     }
 
-    class ViewHolder(view: View) :
+    class ViewHolder(view: View,val onMovieClicked: OnMovieClicked) :
         BaseViewHolder<Movie>(view) {
         override fun bindView(item: Movie){
             if (item.imagePath != null) {
@@ -31,6 +31,9 @@ class MoviesListAdapter :
                     .load("https://image.tmdb.org/t/p/w185/" + item.imagePath)
                     .diskCacheStrategy(DiskCacheStrategy.ALL)
                     .into(itemView.list_image_view)
+            }
+            itemView.list_image_view.setOnClickListener {
+                onMovieClicked.onMovieClicked(item)
             }
         }
     }
