@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_back_arrow.xml" value="0.1375" />
+        <entry key="app/src/main/res/drawable/rounded_background.xml" value="0.1375" />
+        <entry key="app/src/main/res/drawable/rounded_movie_item.xml" value="0.1375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18854166666666666" />
+        <entry key="app/src/main/res/layout/back_button_top_bar.xml" value="0.1875" />
         <entry key="app/src/main/res/layout/fragment_movie_details.xml" value="0.18854166666666666" />
         <entry key="app/src/main/res/layout/fragment_movies_list.xml" value="0.165" />
         <entry key="app/src/main/res/layout/movie_list_item.xml" value="0.165" />

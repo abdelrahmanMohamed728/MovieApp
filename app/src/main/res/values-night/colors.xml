@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="day_night_green">@color/green_dark_mode</color>
+    <color name="day_night_gray">@color/dark_mode_25</color>
+    <color name="day_night_light_gray">@color/dark_800</color>
+
+    <color name="l_dark_600_d_gray_400">@color/gray_400</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="title_color">@color/colorOnPrimary</color>
+
+    <color name="list_sheet_title">@color/white</color>
+    <color name="hint_text_color">@color/gray_400</color>
+    <color name="app_background">@color/dark_mode_100</color>
+    <color name="button_background">@color/dark_800</color>
+    <color name="app_header_background">@color/dark_mode_50</color>
+    <color name="auth_text_color">@color/white</color>
+    <color name="text_field_title_color">@color/white</color>
+    <color name="phone_identifier">@color/white</color>
+    <color name="phone_separator">@color/dark_600</color>
+    <color name="selected_cell">@color/green_dark_mode</color>
+    <color name="unselected_cell">@color/dark_mode_25</color>
+    <color name="resend_code_in_color">@color/gray_400</color>
+    <color name="resend_time_color">@color/white</color>
+    <color name="resend_button_color">@color/green_dark_mode</color>
+
+    <color name="disabled_button_color">@color/dark_mode_25</color>
+    <color name="enabled_button_color">@color/green_dark_mode</color>
+    <color name="divider_background">@color/dark_800</color>
+    <color name="app_green">@color/green_dark_mode</color>
+    <color name="skills_separator_background">@color/dark_mode_50</color>
+
+    <color name="connection_cell_border">@color/dark_mode_50</color>
+    <color name="connection_cell_bg">@color/dark_mode_50</color>
+
+    <color name="connection_club_color">@color/gray_400</color>
+    <color name="warning_color">@color/green_dark_mode_20</color>
+
+    <color name="accent_background">@color/green_dark_mode_20</color>
+    <color name="accent_stroke">@color/green_dark_mode</color>
+
+    <color name="mid_screen_gray_line_separator">@color/dark_800</color>
+
+    <color name="separator">@color/dark_mode_50</color>
+    <color name="light_separator">@color/app_background</color>
+
+    <color name="pager_indicator_def_color">@color/gray_400</color>
+
+    <color name="profile_card_text_color">@color/white</color>
+
+    <color name="toggle_button_background_selected">@color/dark_mode_25</color>
+
+    <color name="when_verification_text_color">@color/white</color>
+
+    <color name="overview_position_text_color">@color/gray_400</color>
+    <color name="toggle_button_background_unselected">@color/dark_800</color>
+
+    <color name="menu_background">@color/dark_mode_100</color>
+    <color name="profile_under_18_info_card">@color/green_dark_mode_20</color>
+
+    <color name="pending_verification">@color/yellow_dark_mode</color>
+
+    <color name="network_button_text">@color/gray_200</color>
+    <color name="contact_card_subtitle">@color/gray_400</color>
+
+    <color name="profile_completion_bar_unselected_cell">@color/gray_400</color>
+    <color name="experience_details_subtitle_color">@color/gray_400</color>
+
+    <color name="darker_separator">@color/dark_800</color>
+
+    <color name="profile_club_duration">@color/gray_400</color>
+
+
+    <color name="bottom_nav_background">@color/dark_800</color>
+    <color name="find_friends_skip_button">@color/green_dark_mode</color>
+
+
+    <color name="rounded_square_day_night_gray">@color/dark_mode_25</color>
+
+    <color name="gng_tab_layout_color">@color/dark_800</color>
+
+    <color name="contact_card_gray_btn">@color/white</color>
+
+    <color name="close_button_background">@color/dark_600</color>
+
+    <color name="selected_button_background">@color/dark_800</color>
+    <color name="selected_button_button_background">@color/dark_mode_25</color>
+
+    <color name="feed_background">@color/dark_mode_100</color>
+    <color name="empty_feed_background">@color/app_background</color>
+    <color name="feed_card_background">@color/app_header_background</color>
+    <color name="day_night_red">@color/red_200</color>
+
+    <color name="ic_goto_arrow_color">@color/dark_600</color>
+    <color name="yellow_waiting_parent_approval">@color/yellow_dark_mode_20</color>
+    <color name="accepted_request_item">#66158362</color>
+
+    <color name="pending_request_bg_color">@color/dark_600</color>
+    <color name="divider_in_light_mode">@color/dark_mode_50</color>
+    <color name="back_ground_in_see_all">@color/dark_mode_100</color>
+
+    <color name="notification_read">@color/dark_mode_50</color>
+    <color name="l_gray_300_d_gray_400">@color/gray_400</color>
+    <color name="l_gray_100_d_dark_800">@color/dark_800</color>
+    <color name="divider_post_action">@color/dark_800</color>
+    <color name="post_item_background">@color/dark_mode_50</color>
+    <color name="comment_item_background">@color/dark_800</color>
+    <color name="message_item_incoming_background">@color/dark_600</color>
+    <color name="reply_to">@color/gray_400</color>
+    <color name="comment_img">@color/gray_400</color>
+    <color name="more_action_menu_item">@color/white</color>
+    <color name="l_green_25_d_dark_800">@color/dark_800</color>
+    <color name="l_dark_600_d_white">@color/white</color>
+    <color name="profile_certificate_divider">@color/dark_800</color>
+
+    <color name="player_u16_warning_text_color">@color/white</color>
+</resources>

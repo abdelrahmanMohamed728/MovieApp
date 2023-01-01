@@ -1,10 +1,205 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <color name="green_200">#0D4D3A</color>
+    <color name="green_100">#106048</color>
+    <color name="green_50">#9FBFB6</color>
+    <color name="green_25">#E7EFED</color>
+    <color name="green_dark_mode">#158362</color>
+    <color name="green_dark_mode_20">#33158362</color>
+    <color name="yellow_dark_mode">#1affad33</color>
+
+
+    <color name="red_200">#CC3E3E</color>
+    <color name="red_100">#FF4D4E</color>
+    <color name="red_50">#FFB8B8</color>
+    <color name="red_25">#FFEDED</color>
+
+    <color name="baby_blue">#56AEFF</color>
+
+    <color name="yellow_200">#F3BC4E</color>
+    <color name="yellow_100">#FFD233</color>
+    <color name="yellow_50">#FAE4B8</color>
+    <color name="yellow_25">#FEF8ED</color>
+    <color name="yellow_dark_mode_20">#33FFD233</color>
+
+    <color name="warm_green_100">#D9DAD2</color>
+
+    <color name="dark_1000">#111111</color>
+    <color name="dark_800">#414141</color>
+    <color name="dark_600">#707070</color>
+    <color name="gray_300">#545F67</color>
+    <color name="gray_400">#A0A0A0</color>
+    <color name="gray_600">#707070</color>
+    <color name="gray_200">#CFCFCF</color>
+    <color name="gray_100">#E7E7E7</color>
+    <color name="gray_50">#F5F6F5</color>
+    <color name="gray_50_90">#E5F5F6F5</color>
+    <color name="gray_25">#F7F8F8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="timber_wolf_gray">#D9DAD2</color>
+    <color name="bangladesh_green">#006749</color>
+    <color name="jet_stream">#b8d0cb</color>
+
+    <color name="black">#151617</color>
+    <color name="dark_mode_100">#1E2021</color>
+    <color name="dark_mode_50">#2D2D2D</color>
+    <color name="dark_mode_25">#5E5E5E</color>
+
+    <color name="day_night_green">@color/green_100</color>
+    <color name="day_night_gray">@color/gray_200</color>
+    <color name="day_night_light_gray">@color/gray_50</color>
+
+    <color name="l_dark_600_d_gray_400">@color/dark_600</color>
+    <color name="colorOnPrimary">@color/dark_1000</color>
+    <color name="title_color">@color/colorOnPrimary</color>
+    <color name="body_color">@color/l_dark_600_d_gray_400</color>
+
+    <color name="hint_text_color">@color/gray_400</color>
+    <color name="background_white">@color/white</color>
+    <color name="app_header_background">@color/white</color>
+    <color name="list_sheet_title">@color/title_color</color>
+    <color name="semi_transparnet">#90000000</color>
+
+    <color name="app_background">@color/white</color>
+    <color name="button_background">@color/gray_50</color>
+    <color name="auth_text_color">@color/text_field_text_color</color>
+
+    <color name="splash_bg">@color/app_background</color>
+
+    <color name="auth_title_color">@color/title_color</color>
+
+    <color name="phone_identifier">@color/dark_1000</color>
+
+    <color name="phone_separator">@color/gray_200</color>
+
+    <color name="auth_success_body_color">@color/body_color</color>
+
+    <color name="text_field_title_color">@color/title_color</color>
+
+    <color name="action_bar_btn_color">@color/day_night_green</color>
+
+    <color name="selected_cell">@color/green_100</color>
+    <color name="unselected_cell">@color/gray_100</color>
+
+    <color name="resend_code_in_color">@color/body_color</color>
+
+    <color name="resend_time_color">@color/dark_1000</color>
+
+    <color name="resend_button_color">@color/day_night_green</color>
+
+    <color name="disabled_button_color">@color/gray_200</color>
+
+    <color name="enabled_button_color">@color/day_night_green</color>
+    <color name="text_field_text_color">@color/title_color</color>
+    <color name="text_field_end_text_error_color">@color/gray_400</color>
+    <color name="text_field_text_error_color">@color/red_100</color>
+
+    <color name="selected_defender_background_color">@color/baby_blue</color>
+    <color name="selected_midfielder_background_color">@color/yellow_200</color>
+    <color name="selected_forward_background_color">@color/white</color>
+
+    <color name="selected_forward_text_color">@color/dark_1000</color>
+    <color name="unselected_background_position_color">#339FBFB6</color>
+
+    <color name="accent_background">@color/green_25</color>
+    <color name="accent_stroke">@color/green_100</color>
+
+    <color name="mid_screen_gray_line_separator">@color/gray_100</color>
+
+    <color name="separator">@color/gray_200</color>
+    <color name="light_separator">@color/gray_100</color>
+
+    <color name="divider_background">@color/gray_100</color>
+
+
+    <color name="app_green">@color/green_100</color>
+    <color name="skills_separator_background">@color/gray_100</color>
+
+    <color name="empty_screen_sub_title">@color/l_dark_600_d_gray_400</color>
+    <color name="connection_cell_border">@color/gray_100</color>
+    <color name="connection_cell_bg">@color/white</color>
+
+    <color name="connection_club_color">@color/l_dark_600_d_gray_400</color>
+    <color name="warning_color">@color/green_25</color>
+
+    <color name="pager_indicator_def_color">@color/green_50</color>
+
+    <color name="overview_position_text_color">@color/dark_800</color>
+
+    <color name="profile_card_text_color">@color/dark_1000</color>
+
+    <color name="when_verification_text_color">@color/dark_800</color>
+    <color name="profile_under_18_info_card">@color/green_25</color>
+
+    <color name="pending_verification">@color/yellow_25</color>
+
+    <color name="profile_completion_bar_unselected_cell">@color/white</color>
+    <color name="toggle_button_background_selected">@color/white</color>
+
+    <color name="toggle_button_background_unselected">@color/gray_100</color>
+
+    <color name="menu_background">@color/gray_50</color>
+
+    <color name="contact_card_subtitle">@color/l_dark_600_d_gray_400</color>
+
+    <color name="contact_card_connect_btn_color">@color/white</color>
+    <color name="contact_card_invite_btn_color">@color/dark_1000</color>
+    <color name="contact_card_gray_btn">@color/gray_200</color>
+
+    <color name="network_button_text">@color/dark_1000</color>
+
+    <color name="find_friends_subtitle">@color/dark_600</color>
+
+    <color name="find_friends_skip_button">@null</color>
+
+    <color name="experience_details_subtitle_color">@color/l_dark_600_d_gray_400</color>
+
+    <color name="darker_separator">@color/gray_400</color>
+
+    <color name="profile_club_duration">@color/dark_800</color>
+
+    <color name="bottom_nav_background">@color/white</color>
+    <color name="day_night_red">@color/red_200</color>
+
+    <color name="unselected_nav_bottom_icon">@color/gray_400</color>
+
+    <color name="rounded_square_day_night_gray">@color/gray_50</color>
+
+    <color name="gng_tab_layout_color">@color/gray_100</color>
+
+    <color name="close_button_background">@color/gray_50</color>
+
+    <color name="selected_button_background">@color/gray_50</color>
+    <color name="selected_button_button_background">@color/white</color>
+
+    <color name="feed_background">@color/timber_wolf_gray</color>
+    <color name="empty_feed_background">@color/gray_50</color>
+    <color name="feed_card_background">@color/gray_50_90</color>
+    <color name="ic_goto_arrow_color">@color/gray_400</color>
+    <color name="yellow_waiting_parent_approval">@color/yellow_25</color>
+    <color name="accepted_request_item">@color/green_25</color>
+    <color name="pending_request_bg_color">@color/gray_100</color>
+    <color name="pending_request_text_color">@color/body_color</color>
+    <color name="divider_in_light_mode">@color/gray_100</color>
+
+    <color name="map_pin_inner_color">@color/bangladesh_green</color>
+    <color name="map_pin_outer_color">@color/jet_stream</color>
+    <color name="back_ground_in_see_all">#FAFAFA</color>
+
+    <color name="notification_read">@color/gray_100</color>
+    <color name="l_gray_300_d_gray_400">@color/gray_300</color>
+    <color name="l_gray_100_d_dark_800">@color/gray_100</color>
+    <color name="divider_post_action">#1F000000</color>
+    <color name="post_item_background">#E5F5F6F5</color>
+    <color name="comment_item_background">@color/gray_50</color>
+    <color name="message_item_incoming_background">@color/gray_50</color>
+    <color name="reply_to">@color/dark_800</color>
+    <color name="comment_img">@color/dark_600</color>
+    <color name="more_action_menu_item">@color/dark_600</color>
+    <color name="l_green_25_d_dark_800">@color/green_25</color>
+    <color name="l_dark_600_d_white">@color/dark_600</color>
+    <color name="profile_certificate_divider">@color/gray_100</color>
+
+    <color name="player_u16_warning_text_color">@color/dark_1000</color>
 </resources>

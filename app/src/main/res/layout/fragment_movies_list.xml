@@ -7,11 +7,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".movieslist.view.MoviesListFragment">
 
+    <include
+        android:id="@+id/top_bar"
+        layout="@layout/back_button_top_bar"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/movies_recycler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/top_bar" />
 
 
 

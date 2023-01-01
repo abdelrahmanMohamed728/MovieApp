@@ -12,6 +12,7 @@ import com.example.basemodule.basemodule.BaseFragment
 import com.example.movieapp.R
 import com.example.movieapp.shared.model.Movie
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.android.synthetic.main.back_button_top_bar.*
 import kotlinx.android.synthetic.main.fragment_movie_details.*
 import kotlinx.android.synthetic.main.movie_list_item.view.*
 
@@ -28,6 +29,7 @@ class MovieDetailsFragment : BaseFragment<MovieDetailsViewModel>() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewModel.extractArguments(arguments)
+        header_text.text = getString(R.string.movie_details)
     }
 
     override fun initObservers() {
@@ -37,11 +39,18 @@ class MovieDetailsFragment : BaseFragment<MovieDetailsViewModel>() {
         }
     }
 
+    override fun initListeners() {
+        super.initListeners()
+        back_button.setOnClickListener {
+            finishFragment()
+        }
+    }
+
     private fun updateView(movie: Movie) {
         if (movie.imagePath != null) {
             Glide
                 .with(requireContext())
-                .load("https://image.tmdb.org/t/p/w342/" + movie.imagePath)
+                .load("https://image.tmdb.org/t/p/w185/" + movie.imagePath)
                 .into(movie_image_view)
 
             Glide
@@ -53,6 +62,7 @@ class MovieDetailsFragment : BaseFragment<MovieDetailsViewModel>() {
         movie_release_date.text = "Released in "+movie.releaseDate
         rating_bar.rating = movie.userRating.toFloat()
         overview_text.text = movie.overview
+        movie_rating.text = movie.userRating.toString()
     }
 
     companion object{
