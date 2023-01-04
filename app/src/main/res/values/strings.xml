@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Movie App</string>
     <string name="movie_details">Movie Details</string>
+    <string name="choose_the_way_you_want_to_sort_your_movies">Choose the way you want to sort your movies</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
 </resources>
